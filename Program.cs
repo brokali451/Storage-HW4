@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SmartWarehouse.App;
+namespace Storage_HW4;
 
 public class Program
 {
