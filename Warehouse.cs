@@ -12,6 +12,11 @@ public class Warehouse
 
     public Warehouse(int capacity = 10)
     {
+        if (capacity <= 0)
+        {
+            throw new ArgumentException("Storage has to be more then 0.");
+        }
+
         _items = new string[capacity];
 
         for (int i = 0; i < _items.Length; i++)
